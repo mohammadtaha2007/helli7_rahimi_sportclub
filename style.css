@@ -13,3 +13,14 @@ a{
 ul{
     list-style-type: none;
 }
+
+/* ********************** */
+
+/* Header Part */
+
+.container{
+
+    width: 1200px;
+    margin: 0 auto;
+
+}
