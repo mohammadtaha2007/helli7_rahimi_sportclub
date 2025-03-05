@@ -23,6 +23,7 @@
             </div>
 
         </nav>
+        <hr>
     </header>
 </body>
 </html>
