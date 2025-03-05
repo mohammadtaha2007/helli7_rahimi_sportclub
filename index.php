@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <div>
+        </div>
+
+        <div>
+        </div>
+    </header>
 </body>
 </html>
