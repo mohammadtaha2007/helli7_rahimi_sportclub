@@ -15,10 +15,10 @@
             </div>
 
             <div>
-                <ul>
-                    <li>ENG</li>
-                    <li>FA</li>
-                    <li>Enjoy This Team</li>
+                <ul class="c-flex">
+                    <li class="space"> ENG </li> 
+                    <li class="space"> FA </li>
+                    <li class="space"> Enjoy This Team </li>
                 </ul>        
             </div>
 
