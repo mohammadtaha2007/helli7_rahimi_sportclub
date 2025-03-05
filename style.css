@@ -35,3 +35,14 @@ ul{
     margin: 0 auto;
 
 }
+
+.c-flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.space{
+    justify-content: space-between;
+    margin: 0px 15px ;
+}
