@@ -8,17 +8,19 @@
 </head>
 <body>
     <header>
-        <div>
-            <p>This Site Is About All Time Football Iconic Team </p>
-        </div>
+        <nav>
+            <div>
+                <p>This Site Is About All Time Football Iconic Team </p>
+            </div>
 
-        <div>
-            <ul>
-                <li>ENG</li>
-                <li>FA</li>
-                <li>Enjoy This Team</li>
-            </ul>        
-        </div>
+            <div>
+                <ul>
+                    <li>ENG</li>
+                    <li>FA</li>
+                    <li>Enjoy This Team</li>
+                </ul>        
+            </div>
+        </nav>
     </header>
 </body>
 </html>
