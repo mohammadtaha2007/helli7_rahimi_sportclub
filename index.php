@@ -8,7 +8,8 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="t-flex container">
+
             <div>
                 <p>This Site Is About All Time Football Iconic Team </p>
             </div>
@@ -20,6 +21,7 @@
                     <li>Enjoy This Team</li>
                 </ul>        
             </div>
+
         </nav>
     </header>
 </body>
