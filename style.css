@@ -18,6 +18,13 @@ ul{
 
 /* Header Part */
 
+.t-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 .container{
 
     width: 1200px;
