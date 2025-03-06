@@ -32,6 +32,10 @@
                 <p>Enter Your Search About Player</p>
             </div>
 
+            <div>
+                <a href=""><img src="" alt=""></a>
+            </div>
+
             
         </nav>
     </header>
