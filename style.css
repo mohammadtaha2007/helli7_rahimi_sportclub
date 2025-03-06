@@ -42,10 +42,22 @@ ul{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 15px;
+    margin: 25px;
 }
 
 .space{
     justify-content: space-between;
     margin: 0px 15px ;
+}
+
+.search-logo{
+    width: 25px;
+    height: 25px;
+    margin: 35px 0px;
+}
+
+.site-logo{
+    width: 350px;
+    height: 200px;
+    margin: 35px 0px;
 }
