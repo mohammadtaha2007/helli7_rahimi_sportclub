@@ -23,7 +23,17 @@
             </div>
 
         </nav>
+
         <hr>
+
+        <nav>
+            <div>
+                <img src="" alt="">
+                <p>Enter Your Search About Player</p>
+            </div>
+
+            
+        </nav>
     </header>
 </body>
 </html>
