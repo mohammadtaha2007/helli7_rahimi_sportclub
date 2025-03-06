@@ -26,14 +26,14 @@
 
         <hr>
 
-        <nav>
-            <div>
-                <img src="" alt="">
+        <nav class="t-flex container">
+            <div class="t-flex">
+                <img class="search-logo" src="images/Search.png" alt="">
                 <p>Enter Your Search About Player</p>
             </div>
 
-            <div>
-                <a href=""><img src="" alt=""></a>
+            <div class="t-flex">
+                <a href=""><img class="site-logo" src="images/sitelogo.png" alt=""></a>
             </div>
 
             <div>
