@@ -36,7 +36,16 @@
                 <a href=""><img src="" alt=""></a>
             </div>
 
-            
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <a href=""></a>
+                </div>
+
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
         </nav>
     </header>
 </body>
