@@ -45,13 +45,17 @@ ul{
     margin: 25px;
 }
 
-.space{
-    justify-content: space-between;
+.fa{
     margin: 0px 15px ;
 }
 
 .enjoy{
     margin-right: -25px;
+    margin-left: 15px;
+}
+
+.eng{
+    margin-right: 15px;
 }
 
 .search-logo{
@@ -67,8 +71,9 @@ ul{
 }
 
 .shop-basket{
-    width: 35px;
+    width: 40px;
     height: 35px;
+    margin-left: 35px;
 }
 
 .sign-in{
@@ -76,6 +81,6 @@ ul{
 }
 
 .person{
-    width: 45px;
+    width: 35px;
     height: 35px;
 }
