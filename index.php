@@ -18,7 +18,7 @@
                 <ul class="c-flex">
                     <li> <a href="">ENG</a> </li> 
                     <li class="space"> <a href="">FA</a> </li>
-                    <li> Enjoy This Team </li>
+                    <li class="enjoy"> Enjoy This Team </li>
                 </ul>        
             </div>
 
@@ -37,13 +37,10 @@
             </div>
 
             <div>
-                <div>
-                    <img src="" alt="">
-                    <a href=""></a>
-                </div>
-
-                <div>
-                    <img src="" alt="">
+                <div class="t-flex">
+                    <img src="images/person.png" class="person" alt="">
+                    <a href="" class="sign-in">Sign in</a>
+                    <img src="images/shoppingbasket.png" class="shop-basket" alt="">
                 </div>
             </div>
         </nav>
