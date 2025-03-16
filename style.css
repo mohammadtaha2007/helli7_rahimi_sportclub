@@ -45,6 +45,10 @@ ul{
     margin: 25px;
 }
 
+.top-row{
+    background-color: rgb(220, 220, 220);
+}
+
 .fa{
     margin: 0px 15px ;
 }
@@ -65,9 +69,9 @@ ul{
 }
 
 .site-logo{
-    width: 350px;
-    height: 200px;
-    margin: 30px 0px;
+    width: 250px;
+    height: 155px;
+    margin: 0px 0px;
 }
 
 .shop-basket{
@@ -83,4 +87,9 @@ ul{
 .person{
     width: 35px;
     height: 35px;
+}
+.bottom-row{
+    background-color: rgb(45, 45, 45);
+    height: 100px;
+    color: white;
 }
