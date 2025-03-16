@@ -7,28 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav class="t-flex container">
-
-            <div>
+    <header class="main-header">
+        <div class="top-row">
+            <div class="container t-flex">
                 <p>This Site Is About All Time Football Iconic Team </p>
-            </div>
 
-            <div>
                 <ul class="c-flex">
                     <li class="eng"> <a href="">ENG</a> </li> 
                     <div>|</div>
                     <li class="fa"> <a href="">FA</a> </li>
                     <div>|</div>
                     <li class="enjoy"> Enjoy This Team </li>
-                </ul>        
+                </ul> 
             </div>
-
-        </nav>
+        </div>
 
         <hr>
 
-        <nav class="t-flex container">
+        <div class="mid-row">
+            <div class="container t-flex">
             <div class="t-flex">
                 <img class="search-logo" src="images/Search.png" alt="">
                 <p>Enter Your Search About Player</p>
@@ -46,7 +43,43 @@
                     <img src="images/shoppingbasket.png" class="shop-basket" alt="">
                 </div>
             </div>
-        </nav>
+            </div>
+        </div>
+
+        <div class="bottom-row">
+            <div class="container t-flex">
+                <ul class="t-flex">
+                    <li>
+                        <p>Browse Categories</p>                      
+                    </li>
+
+                    <li>
+                        <p>Products</p>
+                    </li>
+
+                    <li>
+                        <p>Blog</p>
+                    </li>
+
+                    <li>
+                        <p>Contact</p>
+                    </li>
+                </ul>
+
+                <div class="t-flex">
+                    <p>Customer Cure : +989370307618</p>
+                </div>
+            </div>
+        </div>
     </header>
+
+    <!-- Main Section Starts -->
+    <section class="main-slider">
+        <div class="container"></div>
+    </section>
+    <!-- Main Section Ends -->
+
+    <section class="brand-section"></section>
+
 </body>
 </html>
