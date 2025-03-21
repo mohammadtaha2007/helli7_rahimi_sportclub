@@ -48,9 +48,9 @@
 
         <div class="bottom-row">
             <div class="container t-flex">
-                <ul class="t-flex">
-                    <li>
-                        <p>Browse Categories</p>                      
+                <ul class="t-flex nav-bar">
+                    <li class="nav">
+                        <a href="">Browse Categories</a>                    
                     </li>
 
                     <li>

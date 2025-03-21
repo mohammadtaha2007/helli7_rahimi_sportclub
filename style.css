@@ -93,3 +93,23 @@ ul{
     height: 100px;
     color: white;
 }
+
+
+.bottom-row a {
+    color: white;
+}
+
+.nav-bar{
+    gap: 100px;
+    height: 100px;
+}
+
+.nav{
+    background-color: rgb(45, 45, 45);
+    transition: all .5s;
+}
+
+.nav:hover{
+    background-color: red;
+    padding: 40.5px;
+}
