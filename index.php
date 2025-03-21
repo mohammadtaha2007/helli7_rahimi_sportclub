@@ -57,8 +57,8 @@
                         <a href="">Products</a>
                     </li>
 
-                    <li>
-                        <p>Blog</p>
+                    <li class="nav">
+                        <a href="">Blog</a>
                     </li>
 
                     <li>
