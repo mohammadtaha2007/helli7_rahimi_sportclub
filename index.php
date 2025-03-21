@@ -67,7 +67,7 @@
                 </ul>
 
                 <div class="t-flex">
-                    <p>Customer Cure : +989370307618</p>
+                    <a href="">Customer Cure : +989370307618</a>
                 </div>
             </div>
         </div>
