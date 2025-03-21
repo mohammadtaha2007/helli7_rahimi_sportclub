@@ -61,8 +61,8 @@
                         <a href="">Blog</a>
                     </li>
 
-                    <li>
-                        <p>Contact</p>
+                    <li class="nav">
+                        <a href="">Contact</a>
                     </li>
                 </ul>
 
