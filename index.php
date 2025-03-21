@@ -53,8 +53,8 @@
                         <a href="">Browse Categories</a>                    
                     </li>
 
-                    <li>
-                        <p>Products</p>
+                    <li class="nav">
+                        <a href="">Products</a>
                     </li>
 
                     <li>
