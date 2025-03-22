@@ -88,6 +88,7 @@
             </div>
 
             <div>
+                <img src="images/squad.png" alt="Icon Squad" class="slider-img">
             </div>
         </section>
     </section>
