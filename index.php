@@ -79,6 +79,11 @@
             <div>
                 <h1 class="slider-text">All Time Iconic Players</h1>
 
+                <p class="slider-p">these football players are the best at old time
+                    and they become famous because their hard working
+                    and the trophy they won.
+                </p>
+
             </div>
 
             <div>
