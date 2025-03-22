@@ -75,7 +75,7 @@
 
     <!-- Main Section Starts -->
     <section class="main-slider">
-        <div class="container"></div>
+        <section class="container t-flex">
     </section>
     <!-- Main Section Ends -->
 
