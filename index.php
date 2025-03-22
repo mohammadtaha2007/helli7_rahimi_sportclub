@@ -78,6 +78,7 @@
         <section class="container t-flex">
             <div>
             </div>
+            </div>
     </section>
     <!-- Main Section Ends -->
 
