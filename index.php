@@ -84,6 +84,7 @@
                     and the trophy they won.
                 </p>
 
+                <button class="slider-info">More Info</button>
             </div>
 
             <div>
