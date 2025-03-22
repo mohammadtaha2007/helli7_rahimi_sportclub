@@ -85,6 +85,13 @@ section {
     margin: 10px 0px;
 }
 
+.serach-box{
+    width: 220px;
+    height: 25px;
+    border: none;
+}
+
+
 .site-logo{
     width: 250px;
     height: 155px;
