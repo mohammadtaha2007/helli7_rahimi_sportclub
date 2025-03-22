@@ -28,7 +28,7 @@
             <div class="container t-flex">
             <div class="t-flex">
                 <img class="search-logo" src="images/Search.png" alt="">
-                <p>Enter Your Search About Player</p>
+                <input type="search" placeholder="Search About Your Iconic Player..." class="serach-box">
             </div>
 
             <div class="t-flex">
