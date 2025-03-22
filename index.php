@@ -77,6 +77,8 @@
     <section class="main-slider">
         <section class="container t-flex">
             <div>
+                <h1 class="slider-text">All Time Iconic Players</h1>
+
             </div>
 
             <div>
