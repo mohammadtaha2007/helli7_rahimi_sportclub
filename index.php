@@ -88,7 +88,8 @@
             </div>
 
             <div>
-                <img src="images/squad.png" alt="Icon Squad" class="slider-img">
+                <img src="images/nazario.png" alt="Ronaldo Nazario" class="slider-img">
+                <img src="images/ronaldinho.png" alt="Ronaldinho" class="slider-img">
             </div>
         </section>
     </section>
