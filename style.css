@@ -148,6 +148,6 @@ section {
 }
 
 .nav:hover{
-    background-color: red;
+    background-color: var(--gold);
     padding: 40.5px;
 }
