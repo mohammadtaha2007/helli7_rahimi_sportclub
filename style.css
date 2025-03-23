@@ -64,9 +64,8 @@ section {
     margin: 0 auto;
 }
 
-
-.c-flex{
-    display:flex;
+.c-flex {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 25px;
