@@ -38,7 +38,15 @@ section {
 
 /* ********************** */
 
-/* Header Part */
+/* RooT */
+:root {
+  
+    --gold:rgb(190, 165, 0) ; 
+    --text-color: #666;
+    --gray: rgb(220, 220, 220);
+    --black: rgb(45, 45, 45); 
+    --white: #fff;
+}
 
 .t-flex{
     display: flex;
