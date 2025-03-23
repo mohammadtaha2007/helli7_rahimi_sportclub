@@ -77,7 +77,7 @@
     <section class="main-slider">
         <section class="container t-flex">
             <div>
-                <h1 class="slider-text">All Time Iconic Players</h1>
+                <h1 class="slider-text">All Iconic Players</h1>
 
                 <p class="slider-p">these football players are the best at old time
                     and they become famous because their hard working
