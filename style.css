@@ -122,8 +122,9 @@ section {
     width: 35px;
     height: 35px;
 }
-.bottom-row{
-    background-color: rgb(45, 45, 45);
+
+.bottom-row {
+    background-color: var(--black);
     height: 100px;
     color: white;
     margin-bottom: 0;
