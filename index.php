@@ -95,7 +95,8 @@
     </section>
     <!-- Main Section Ends -->
 
-    <section class="brand-section"></section>
+    <section class="brand-section">
+    </section>
 
 </body>
 </html>
