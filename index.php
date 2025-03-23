@@ -97,6 +97,7 @@
 
     <section class="brand-section">
         <div class="container">
+            <h2 class="brand-title">Iconic Teams</h2>
         </div>
     </section>
 
