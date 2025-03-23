@@ -96,6 +96,8 @@
     <!-- Main Section Ends -->
 
     <section class="brand-section">
+        <div class="container">
+        </div>
     </section>
 
 </body>
