@@ -99,6 +99,12 @@
         <div class="container">
             <h2 class="brand-title">Iconic Teams</h2>
             <div class="brand-logos">
+                <img src="images/rma.png" alt="Real Madrid Logo" class="brand-logo">
+                <img src="images/fcb.png" alt="Barcelona Logo" class="brand-logo">
+                <img src="images/mu.png" alt="Manchester United Logo" class="brand-logo">
+                <img src="images/che.png" alt="Chelsea Logo" class="brand-logo">
+                <img src="images/bm.png" alt="Bayern Munchen Logo" class="brand-logo">
+                <img src="images/mil.png" alt="Milan Logo" class="brand-logo">
             </div>
         </div>
     </section>
