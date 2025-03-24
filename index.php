@@ -118,6 +118,8 @@
             <div class="promo-cards">
                 <!-- Left Cart-->
                 <div class="promo-card promo-card-left">
+                    <div class="promo-text">
+                    </div>
                 </div>
             </div>
         </div>
