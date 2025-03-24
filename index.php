@@ -130,6 +130,8 @@
                 </div>
                 <!-- Right CARt-->
                 <div class="promo-card promo-card-right">
+                    <div class="promo-text">
+                    </div>
                 </div>
             </div>
         </div>
