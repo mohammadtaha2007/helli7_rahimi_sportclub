@@ -119,6 +119,7 @@
                 <!-- Left Cart-->
                 <div class="promo-card promo-card-left">
                     <div class="promo-text">
+                        <span class="promo-label">ICON PLAYERS!!</span>
                     </div>
                 </div>
             </div>
