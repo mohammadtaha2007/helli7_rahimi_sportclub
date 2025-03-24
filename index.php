@@ -121,6 +121,7 @@
                     <div class="promo-text">
                         <span class="promo-label">ICON PLAYERS!!</span>
                         <h2 class="promo-title">WHO IS ICON PLAYER??</h2>
+                        <p class="promo-desc">The Player Who Is The Best On His Generation Is ICON.</p>
                     </div>
                 </div>
             </div>
