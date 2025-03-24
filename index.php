@@ -124,6 +124,8 @@
                         <p class="promo-desc">The Player Who Is The Best On His Generation Is ICON.</p>
                         <a href="#" class="promo-btn-l">See Them <span class="arrow">→</span></a>
                     </div>
+                    <div class="promo-image">
+                    </div>
                 </div>
             </div>
         </div>
