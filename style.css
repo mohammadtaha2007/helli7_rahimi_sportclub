@@ -211,3 +211,10 @@ section {
 
 
 
+/* brand-section */
+.brand-section {
+    background-color: var(--white);
+    padding: 50px 0;
+    text-align: center; 
+}
+
