@@ -200,3 +200,14 @@ section {
     background-color:var(--gold);
 }
 
+.slider-img {
+    width: 300px;
+    height: 425px;
+    position: relative;
+    z-index: 1;
+    margin-right: -35px;
+    flex-wrap: wrap;
+}
+
+
+
