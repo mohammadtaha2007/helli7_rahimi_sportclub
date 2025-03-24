@@ -75,7 +75,7 @@
     </header>
     <!-- End Header Part -->
 
-    <!-- Main Section Starts -->
+    <!-- Main Section -->
     <section class="main-slider">
         <section class="container t-flex">
             <div>
@@ -95,7 +95,7 @@
             </div>
         </section>
     </section>
-    <!-- Main Section Ends -->
+    <!-- End Main Section -->
 
     <section class="brand-section">
         <div class="container">
