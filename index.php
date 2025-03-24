@@ -120,6 +120,7 @@
                 <div class="promo-card promo-card-left">
                     <div class="promo-text">
                         <span class="promo-label">ICON PLAYERS!!</span>
+                        <h2 class="promo-title">WHO IS ICON PLAYER??</h2>
                     </div>
                 </div>
             </div>
