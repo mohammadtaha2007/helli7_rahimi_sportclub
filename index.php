@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header Part -->
     <header class="main-header">
         <div class="top-row">
             <div class="container t-flex">
@@ -72,6 +73,7 @@
             </div>
         </div>
     </header>
+    <!-- End Header Part -->
 
     <!-- Main Section Starts -->
     <section class="main-slider">
