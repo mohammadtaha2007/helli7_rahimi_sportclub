@@ -115,5 +115,6 @@
 
     <section class="promo-section">
     </section>
+    </section>
 </body>
 </html>
