@@ -128,6 +128,9 @@
                         <img src="images/icon.png" alt="Icon" class="promo-img">
                     </div>
                 </div>
+                <!-- Right CARt-->
+                <div class="promo-card promo-card-right">
+                </div>
             </div>
         </div>
     </section>
