@@ -116,6 +116,9 @@
     <section class="promo-section">
         <div class="container">
             <div class="promo-cards">
+                <!-- Left Cart-->
+                <div class="promo-card promo-card-left">
+                </div>
             </div>
         </div>
     </section>
