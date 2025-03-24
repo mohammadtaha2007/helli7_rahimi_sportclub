@@ -133,6 +133,7 @@
                     <div class="promo-text">
                         <span class="promo-label">TROPHY OF ICON PLAYERS!!</span>
                         <h2 class="promo-title">THE REWARD OF ICON PLAYERS!!</h2>
+                        <p class="promo-desc">Iconic Players Won A Lots OF Rewards.</p>
                     </div>
                 </div>
             </div>
