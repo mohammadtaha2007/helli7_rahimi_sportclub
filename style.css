@@ -225,3 +225,10 @@ section {
     text-transform: uppercase;
 }
 
+.brand-logos {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 150px;
+}
+
