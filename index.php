@@ -134,6 +134,7 @@
                         <span class="promo-label">TROPHY OF ICON PLAYERS!!</span>
                         <h2 class="promo-title">THE REWARD OF ICON PLAYERS!!</h2>
                         <p class="promo-desc">Iconic Players Won A Lots OF Rewards.</p>
+                        <a href="#" class="promo-btn-r">Explore About Rewards <span class="arrow">→</span></a>
                     </div>
                 </div>
             </div>
