@@ -136,6 +136,8 @@
                         <p class="promo-desc">Iconic Players Won A Lots OF Rewards.</p>
                         <a href="#" class="promo-btn-r">Explore About Rewards <span class="arrow">→</span></a>
                     </div>
+                    <div class="promo-image">
+                    </div>
                 </div>
             </div>
         </div>
