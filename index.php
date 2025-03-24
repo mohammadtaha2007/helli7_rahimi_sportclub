@@ -137,6 +137,7 @@
                         <a href="#" class="promo-btn-r">Explore About Rewards <span class="arrow">→</span></a>
                     </div>
                     <div class="promo-image">
+                        <img src="images/icon.png" alt="Icon" class="promo-img">
                     </div>
                 </div>
             </div>
