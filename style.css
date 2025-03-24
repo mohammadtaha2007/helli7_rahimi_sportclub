@@ -218,3 +218,10 @@ section {
     text-align: center; 
 }
 
+.brand-title {
+    font-size: 24px; 
+    color: var(--primary-color); 
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
