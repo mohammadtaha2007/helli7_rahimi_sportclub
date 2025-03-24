@@ -99,7 +99,7 @@
 
     <section class="brand-section">
         <div class="container">
-            <h2 class="brand-title">Iconic Teams</h2>
+            <h2 class="brand-title">( Iconic Teams )</h2>
             <div class="brand-logos">
                 <img src="images/rma.png" alt="Real Madrid Logo" class="brand-logo">
                 <img src="images/fcb.png" alt="Barcelona Logo" class="brand-logo">
