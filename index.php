@@ -131,6 +131,7 @@
                 <!-- Right CARt-->
                 <div class="promo-card promo-card-right">
                     <div class="promo-text">
+                        <span class="promo-label">TROPHY OF ICON PLAYERS!!</span>
                     </div>
                 </div>
             </div>
