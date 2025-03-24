@@ -132,6 +132,7 @@
                 <div class="promo-card promo-card-right">
                     <div class="promo-text">
                         <span class="promo-label">TROPHY OF ICON PLAYERS!!</span>
+                        <h2 class="promo-title">THE REWARD OF ICON PLAYERS!!</h2>
                     </div>
                 </div>
             </div>
