@@ -113,6 +113,7 @@
     </section>
     <!-- End Iconic Teams -->
 
+    <!-- Promo Section -->
     <section class="promo-section">
         <div class="container">
             <div class="promo-cards">
@@ -143,6 +144,8 @@
             </div>
         </div>
     </section>
+    <!-- End Promo section -->
+
     </section>
 </body>
 </html>
