@@ -196,3 +196,7 @@ section {
     transition: background-color 0.3s;
 }
 
+.slider-info:hover {
+    background-color:var(--gold);
+}
+
