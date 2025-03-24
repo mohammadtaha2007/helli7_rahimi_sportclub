@@ -175,3 +175,12 @@ section {
     margin-bottom: 20px;
     line-height: 1.2;
 }
+
+.slider-p {
+    margin-top: 15px;
+    width: 400px;
+    font-size: 18px;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
