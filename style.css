@@ -151,3 +151,20 @@ section {
     background-color: var(--gold);
     padding: 40.5px;
 }
+
+
+
+.main-slider {
+    background-image: url('images/zidane.png') , url('images/beckham.png');
+    background-size:45% , 45%;
+    background-position: 850px -100px, -100px -100px ;
+    background-repeat: no-repeat , no-repeat;
+    height: 600px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: var(--gray);
+    background-blend-mode: overlay;
+}
