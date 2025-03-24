@@ -97,6 +97,7 @@
     </section>
     <!-- End Main Section -->
 
+    <!-- Iconic Teams -->
     <section class="brand-section">
         <div class="container">
             <h2 class="brand-title">( Iconic Teams )</h2>
@@ -110,6 +111,7 @@
             </div>
         </div>
     </section>
+    <!-- End Iconic Teams -->
 
 </body>
 </html>
