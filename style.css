@@ -313,3 +313,7 @@ section {
     color: var(--black);
 }
 
+.promo-card-right .promo-title {
+    color: var(--white);
+}
+
