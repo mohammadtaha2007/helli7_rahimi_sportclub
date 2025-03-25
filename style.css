@@ -281,3 +281,7 @@ section {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
 }
 
+.promo-card-left {
+    background-color: var(--white);
+}
+
