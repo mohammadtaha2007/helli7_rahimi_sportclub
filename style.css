@@ -330,3 +330,21 @@ section {
     color: var(--white);
 }
 
+.promo-btn-l {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--black);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .5s;
+}
+.promo-btn-l:hover {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: bold;
+}
+
