@@ -326,3 +326,7 @@ section {
     color:var(--black);
 }
 
+.promo-card-right .promo-desc {
+    color: var(--white);
+}
+
