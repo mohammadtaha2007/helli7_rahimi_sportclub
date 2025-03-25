@@ -309,3 +309,7 @@ section {
     line-height: 1.2;
 }
 
+.promo-card-left .promo-title {
+    color: var(--black);
+}
+
