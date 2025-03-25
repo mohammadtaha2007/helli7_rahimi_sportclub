@@ -289,3 +289,8 @@ section {
     background-color: var(--black);
 }
 
+.promo-text {
+    padding: 30px;
+    width: 50%;
+}
+
