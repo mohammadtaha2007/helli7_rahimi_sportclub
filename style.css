@@ -317,3 +317,8 @@ section {
     color: var(--white);
 }
 
+.promo-desc {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
