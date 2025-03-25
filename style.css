@@ -366,3 +366,11 @@ section {
     font-weight: bold;
 }
 
+.promo-btn-r .arrow {
+    margin-left: 5px;
+    transition: transform 0.3s;
+}
+.promo-btn-r:hover .arrow {
+    transform: translateX(5px);
+}
+
