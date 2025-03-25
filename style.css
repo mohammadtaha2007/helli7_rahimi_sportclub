@@ -285,3 +285,7 @@ section {
     background-color: var(--white);
 }
 
+.promo-card-right {
+    background-color: var(--black);
+}
+
