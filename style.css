@@ -374,3 +374,11 @@ section {
     transform: translateX(5px);
 }
 
+.promo-btn-l .arrow {
+    margin-left: 5px;
+    transition: transform 0.3s;
+}
+.promo-btn-l:hover .arrow {
+    transform: translateX(5px);
+}
+
