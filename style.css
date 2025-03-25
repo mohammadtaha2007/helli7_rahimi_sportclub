@@ -348,3 +348,21 @@ section {
     font-weight: bold;
 }
 
+.promo-btn-r {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .5s;
+}
+.promo-btn-r:hover {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: bold;
+}
+
