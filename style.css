@@ -294,3 +294,11 @@ section {
     width: 50%;
 }
 
+.promo-label {
+    display: inline-block;
+    font-size: 14px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
