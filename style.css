@@ -322,3 +322,7 @@ section {
     margin-bottom: 20px;
 }
 
+.promo-card-left .promo-desc {
+    color:var(--black);
+}
+
