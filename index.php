@@ -148,6 +148,8 @@
 
     <!-- Players Section -->
     <section class="players-section">
+        <div class="container">
+        </div>
     </section>
 </body>
 </html>
