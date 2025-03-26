@@ -152,6 +152,13 @@
             <div class="players-header">
                 <h2 class="players-title">Top Icons</h2>
                 <span class="players-tab">in All Time</span>
+                <ul class="players-filters">
+                    <li><a href="#" class="filter active">ALL</a></li>
+                    <li><a href="#" class="filter">MALE</a></li>
+                    <li><a href="#" class="filter">FEMALE</a></li>
+                    <li><a href="#" class="filter">MANAGERS</a></li>
+                </ul>
+            </div>
             </div>
         </div>
     </section>
