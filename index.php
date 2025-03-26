@@ -146,6 +146,8 @@
     </section>
     <!-- End Promo section -->
 
+    <!-- Players Section -->
+    <section class="players-section">
     </section>
 </body>
 </html>
