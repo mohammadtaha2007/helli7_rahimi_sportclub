@@ -149,6 +149,10 @@
     <!-- Players Section -->
     <section class="players-section">
         <div class="container">
+            <div class="players-header">
+                <h2 class="players-title">Top Icons</h2>
+                <span class="players-tab">in All Time</span>
+            </div>
         </div>
     </section>
 </body>
