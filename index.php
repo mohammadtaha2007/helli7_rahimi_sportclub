@@ -395,6 +395,15 @@
                             <p>The Player Who retired from football and in his time he reach im portant rewards is Icon Player.</p>
                         </div>
                     </details>
+                    <details class="accordion-item">
+                        <summary class="accordion-header">
+                            What is This site About?
+                            <span class="accordion-toggle">+</span>
+                        </summary>
+                        <div class="accordion-content">
+                            <p>This site is about icon players in history and their biography.</p>
+                        </div>
+                    </details>
             </div>
         </div>
     </section>
