@@ -159,6 +159,8 @@
                     <li><a href="#" class="filter">MANAGERS</a></li>
                 </ul>
             </div>
+            <div class="players-grid">
+        </div>
             </div>
         </div>
     </section>
