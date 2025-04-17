@@ -391,6 +391,10 @@
                             Who Is Icon Player?
                             <span class="accordion-toggle">+</span>
                         </summary>
+                        <div class="accordion-content">
+                            <p>The Player Who retired from football and in his time he reach im portant rewards is Icon Player.</p>
+                        </div>
+                    </details>
             </div>
         </div>
     </section>
