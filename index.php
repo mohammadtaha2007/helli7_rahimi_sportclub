@@ -454,6 +454,18 @@
                         <p class="update-author">Gareth Bale</p>
                     </div>
                 </div>
+                <!-- Article 2 -->
+                <div class="update-card">
+                    <div class="update-image">
+                        <img src="images/buffon.png" alt="GG Buffon" class="update-img">
+                        <span class="update-date">4</span>
+                        <span class="update-month">Apr</span>
+                    </div>
+                    <div class="update-info">
+                        <h3 class="update-title">Adding Another New Icon GG Buffon On Website!!!</h3>
+                        <p class="update-author">GG Buffon</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
