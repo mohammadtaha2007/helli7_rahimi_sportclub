@@ -320,6 +320,18 @@
                         <span class="card-desc">One Of the best Midifeild In History. </span>
                     </div>
                 </div>
+                <!-- Product 6 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/gullit.png" alt="Ruud Gullit" class="card-img">
+                        <button class="add-to-cart">See More Details</button>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-category">Monster</span>
+                        <h3 class="card-name">Ruud Gullit</h3>
+                        <span class="card-desc">One Of The Best Full Player in History.</span>
+                    </div>
+                </div>
         </div>
     </section>
             </div>
