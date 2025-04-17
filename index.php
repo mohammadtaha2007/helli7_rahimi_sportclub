@@ -284,6 +284,18 @@
                         <span class="card-desc">One Of The Best Wingers in History.</span>
                     </div>
                 </div>
+                <!-- Product 3 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/nazario.png" alt="Ronaldo Nazario" class="card-img">
+                        <button class="add-to-cart">See More Details</button>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-category">Martian</span>
+                        <h3 class="card-name">Ronaldo de luiz nazario</h3>
+                        <span class="card-desc">One of The Best Striker in History.</span>
+                    </div>
+                </div>
         </div>
     </section>
             </div>
