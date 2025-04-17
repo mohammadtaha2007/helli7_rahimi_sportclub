@@ -416,6 +416,23 @@
                 </div>
             </div>
         </div>
+        <!-- Additional Info Cards -->
+        <div class="container t-flex info-cards">
+            <div class="info-card">
+                <h4>ُSite Features</h4>
+                <p>Our Site is free and you can use it easily.</p>
+            </div>
+            <div class="info-card">
+                <h4>Free Downloading</h4>
+                <p>You can Download Photos and data for free.</p>
+            </div>
+            <div class="info-card">
+                <h4>Site Responsive</h4>
+                <p>You can use our site in every phones or Pc or TV!!!</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Photo and Questions Section -->
             </div>
         </div>
     </section>
