@@ -260,6 +260,18 @@
                 </div>
             </div>
             <div class="all-icons-grid">
+                <!-- Product 1 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/zidane.png" alt="Zinedine Zidane" class="card-img">
+                        <button class="add-to-cart">See More Details</button>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-category">Zizo</span>
+                        <h3 class="card-name">Zinedine Zidane</h3>
+                        <span class="card-desc">One Of the Best Midifeild in History.</span>
+                    </div>
+                </div>
         </div>
     </section>
             </div>
