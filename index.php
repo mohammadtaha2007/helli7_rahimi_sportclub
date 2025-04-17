@@ -272,6 +272,18 @@
                         <span class="card-desc">One Of the Best Midifeild in History.</span>
                     </div>
                 </div>
+                <!-- Product 2 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/ronaldinho.png" alt="Ronaldinho" class="card-img">
+                        <button class="add-to-cart">See More Details</button>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-category">Poet</span>
+                        <h3 class="card-name">Ronaldo de Assis Moreira</h3>
+                        <span class="card-desc">One Of The Best Wingers in History.</span>
+                    </div>
+                </div>
         </div>
     </section>
             </div>
