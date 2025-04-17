@@ -441,6 +441,19 @@
                 <h2 class="latest-updates-title">Latest Updates</h2>
                 <a href="#" class="see-all-btn">See All Articles<span class="arrow">→</span></a>
             </div>
+            <div class="updates-grid">
+                <!-- Article 1 -->
+                <div class="update-card">
+                    <div class="update-image">
+                        <img src="images/bale.png" alt="Gareth Bale" class="update-img">
+                        <span class="update-date">4</span>
+                        <span class="update-month">Apr</span>
+                    </div>
+                    <div class="update-info">
+                        <h3 class="update-title">Add Gareth Bale New Icon on Our Website!!</h3>
+                        <p class="update-author">Gareth Bale</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
