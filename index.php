@@ -332,6 +332,18 @@
                         <span class="card-desc">One Of The Best Full Player in History.</span>
                     </div>
                 </div>
+                <!-- Product 7 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/henry.png" alt="Thiery Henry" class="card-img">
+                        <button class="add-to-cart">See More Details</button>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-category">Jet</span>
+                        <h3 class="card-name">Thiery Henry</h3>
+                        <span class="card-desc">One of The Fastest winger in History. </span>
+                    </div>
+                </div>
         </div>
     </section>
             </div>
