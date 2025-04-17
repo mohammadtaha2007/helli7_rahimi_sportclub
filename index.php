@@ -466,8 +466,21 @@
                         <p class="update-author">GG Buffon</p>
                     </div>
                 </div>
+                <!-- Article 3 -->
+                <div class="update-card">
+                    <div class="update-image">
+                        <img src="images/lilian.png" alt="Lilian Thuram" class="update-img">
+                        <span class="update-date">4</span>
+                        <span class="update-month">Apr</span>
+                    </div>
+                    <div class="update-info">
+                        <h3 class="update-title">Addin New Rb : Lilian Thuram On Our site!!</h3>
+                        <p class="update-author">Lilian Thuram</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <!-- End Latest Updates Section -->
 </body>
 </html>
