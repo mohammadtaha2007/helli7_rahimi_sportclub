@@ -372,6 +372,16 @@
     <!-- Photo and Questions Section -->
     <section class="photo-questions-section">
         <div class="container t-flex">
+            <!-- Photo -->
+            <div class="photo">
+                <div class="photo-image">
+                </div>
+                <div class="photo-text">
+                    <h2 class="photo-title">About Iconic</h2>
+                    <p>See Every Things About Icons</p>
+                    <a href="#" class="photo-btn">See More<span class="arrow">→</span></a>
+                </div>
+            </div>
             </div>
         </div>
     </section>
