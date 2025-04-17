@@ -382,6 +382,15 @@
                     <a href="#" class="photo-btn">See More<span class="arrow">→</span></a>
                 </div>
             </div>
+            <!-- Questions -->
+            <div class="questions">
+                <h2 class="questions-title">Iconic Questions</h2>
+                <div class="accordion">
+                    <details class="accordion-item">
+                        <summary class="accordion-header">
+                            Who Is Icon Player?
+                            <span class="accordion-toggle">+</span>
+                        </summary>
             </div>
         </div>
     </section>
