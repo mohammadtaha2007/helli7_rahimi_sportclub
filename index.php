@@ -248,6 +248,20 @@
         </div>
     </section>
     <!-- End history Section -->
+
+    <!-- All Icons Section -->
+    <section class="all-icons">
+        <div class="container">
+            <div class="all-icons-header">
+                <h2 class="all-icons-title">All Icons</h2>
+                <div class="sort-by">
+                    <span>Sort by:</span>
+                    <a href="#" class="sort-option">All Icons</a>
+                </div>
+            </div>
+            <div class="all-icons-grid">
+        </div>
+    </section>
             </div>
         </div>
     </section>
