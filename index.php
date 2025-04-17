@@ -212,7 +212,30 @@
                         <span class="player-detail">He is One Of The Best Midifeild In History</span>
                     </div>
                 </div>
+                <!-- cart4-->
+                <div class="player-card">
+                    <div class="player-image">
+                        <img src="images/pele.png" alt="Pele" class="player-img">
+                        <div class="player-actions">
+                            <button class="action-btn"><a href="">❤️</a></button>
+                            <button class="action-btn"><a href=""><img src="images/share.png" alt=""></a></button>
+                            <button class="action-btn"><a href=""><img src="images/full.png" alt=""></a></button>
+                        </div>
+                        <button class="add-to-cart">SHOW MORE DETAILS ABOUT HIM</button>
+                    </div>
+                    <div class="player-info">
+                        <span class="player-noun">Pele</span>
+                        <h3 class="player-name">Edson Arantes Donasimonte</h3>
+                        <span class="player-detail">He's One Of the Best In FIFA WORLD CUP</span>
+                    </div>
+                </div>
+            </div>
+            <div class="load-more">
+                <button class="load-more-btn">SHOW MORE</button>
+            </div>
         </div>
+    </section>
+    <!-- End Players Section -->
             </div>
         </div>
     </section>
