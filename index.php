@@ -308,6 +308,18 @@
                         <span class="card-desc">One Of The Best Player in World Cup.<span class="discount">New!</span></span>
                     </div>
                 </div>
+                <!-- Product 5 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/beckham.png" alt="David Beckham" class="card-img">
+                        <button class="add-to-cart">See More Details</button>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-category">Beautiful</span>
+                        <h3 class="card-name">David Robert Joseph Beckham</h3>
+                        <span class="card-desc">One Of the best Midifeild In History. </span>
+                    </div>
+                </div>
         </div>
     </section>
             </div>
