@@ -433,6 +433,14 @@
         </div>
     </section>
     <!-- End Photo and Questions Section -->
+
+    <!-- Latest Updates Section -->
+    <section class="latest-updates-section">
+        <div class="container">
+            <div class="latest-updates-header">
+                <h2 class="latest-updates-title">Latest Updates</h2>
+                <a href="#" class="see-all-btn">See All Articles<span class="arrow">→</span></a>
+            </div>
             </div>
         </div>
     </section>
