@@ -194,6 +194,24 @@
                         <span class="player-detail">One Of The Best Strikers In History</span>
                     </div>
                 </div>
+                <!--cart3-->
+                <div class="player-card">
+                    <div class="player-image">
+                        <img src="images/zidane.png" alt="Zidane" class="player-img">
+                        <div class="player-actions">
+                            <button class="action-btn"><a href="">❤️</a></button>
+                            <button class="action-btn"><a href=""><img src="images/share.png" alt=""></a></button>
+                            <button class="action-btn"><a href=""><img src="images/full.png" alt=""></a></button>
+                        </div>
+                        <span class="player-attention">On Top!</span>
+                        <button class="add-to-cart">SHOW MORE DETAILS ABOUT HIM</button>
+                    </div>
+                    <div class="player-info">
+                        <span class="player-noun">Zizo</span>
+                        <h3 class="player-name">Zinedine Zidane</h3>
+                        <span class="player-detail">He is One Of The Best Midifeild In History</span>
+                    </div>
+                </div>
         </div>
             </div>
         </div>
