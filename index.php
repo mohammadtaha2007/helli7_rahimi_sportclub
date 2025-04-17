@@ -357,8 +357,17 @@
                     </div>
                 </div>
             </div>
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="#" class="page-number active">1</a>
+                <a href="#" class="page-number">2</a>
+                <a href="#" class="page-number">3</a>
+                <span>...</span>
+                <a href="#" class="page-number">10</a>
+            </div>
         </div>
     </section>
+    <!-- End All Icons Section -->
             </div>
         </div>
     </section>
