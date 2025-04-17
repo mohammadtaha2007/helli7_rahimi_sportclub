@@ -344,6 +344,19 @@
                         <span class="card-desc">One of The Fastest winger in History. </span>
                     </div>
                 </div>
+                <!-- Product 8 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/baggio.png" alt="Roberto Baggio" class="card-img">
+                        <button class="add-to-cart">See More Details</button>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-category">Sky</span>
+                        <h3 class="card-name">Roberto Baggio</h3>
+                        <span class="card-desc">He is one The Best Striker in History.</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
             </div>
