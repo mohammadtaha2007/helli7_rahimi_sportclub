@@ -236,6 +236,18 @@
         </div>
     </section>
     <!-- End Players Section -->
+
+    <!-- history Section -->
+    <section class="history-section">
+        <div class="container t-flex">
+            <div class="history-text">
+                <h2 class="history-title">Show History Of Icon Players</h2>
+                <p class="history-desc">Details of rewards or troubles that icon players face with them</p>
+                <a href="#" class="history-btn">See Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- End history Section -->
             </div>
         </div>
     </section>
