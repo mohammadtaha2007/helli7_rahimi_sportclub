@@ -177,6 +177,23 @@
                         <span class="player-detail">One Of The Best Dribblers In History </span>
                     </div>
                 </div>
+                <!-- cart2 -->
+                <div class="player-card">
+                    <div class="player-image">
+                        <img src="images/nazario.png" alt="Nazario" class="player-img">
+                        <div class="player-actions">
+                            <button class="action-btn"><a href="">❤️</a></button>
+                            <button class="action-btn"><a href=""><img src="images/share.png" alt=""></a></button>
+                            <button class="action-btn"><a href=""><img src="images/full.png" alt=""></a></button>
+                        </div>
+                        <button class="add-to-cart">SHOW MORE DETAILS ABOUT HIM</button>
+                    </div>
+                    <div class="player-info">
+                        <span class="player-noun">Martian</span>
+                        <h3 class="player-name">Ronaldo De Luiz Nazario</h3>
+                        <span class="player-detail">One Of The Best Strikers In History</span>
+                    </div>
+                </div>
         </div>
             </div>
         </div>
