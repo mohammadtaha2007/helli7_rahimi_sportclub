@@ -368,6 +368,10 @@
         </div>
     </section>
     <!-- End All Icons Section -->
+
+    <!-- Photo and Questions Section -->
+    <section class="photo-questions-section">
+        <div class="container t-flex">
             </div>
         </div>
     </section>
