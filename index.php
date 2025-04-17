@@ -404,6 +404,18 @@
                             <p>This site is about icon players in history and their biography.</p>
                         </div>
                     </details>
+                    <details class="accordion-item">
+                        <summary class="accordion-header">
+                            Can I Download The Photos And Use Data?
+                            <span class="accordion-toggle">+</span>
+                        </summary>
+                        <div class="accordion-content">
+                            <p>Yes Of Course, But Attention to say the Download source .</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
             </div>
         </div>
     </section>
