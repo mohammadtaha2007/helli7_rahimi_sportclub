@@ -296,6 +296,18 @@
                         <span class="card-desc">One of The Best Striker in History.</span>
                     </div>
                 </div>
+                <!-- Product 4 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/pele.png" alt="Pele" class="card-img">
+                        <button class="add-to-cart">See More Details</button>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-category">Pele</span>
+                        <h3 class="card-name">Edson arantes donasimonte</h3>
+                        <span class="card-desc">One Of The Best Player in World Cup.<span class="discount">New!</span></span>
+                    </div>
+                </div>
         </div>
     </section>
             </div>
