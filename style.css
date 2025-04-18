@@ -829,3 +829,18 @@ section {
     margin: 0 5px;
 }
 
+/* *********** */
+
+/* Reach the Peak and Questions Section */
+.photo-questions-section {
+    padding: 50px 0;
+    background-color: var(--white);
+}
+
+.photo-questions-section .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
