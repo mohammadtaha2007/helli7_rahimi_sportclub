@@ -409,3 +409,205 @@ section {
     margin-bottom: 30px;
 }
 
+.players-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.players-tab {
+    font-size: 16px;
+    color: var(--black);
+    margin-left: -800px;
+}
+
+.players-filters {
+    display: flex;
+    gap: 20px;
+}
+
+.players-filters .filter {
+    font-size: 14px;
+    color: var(--black);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.players-filters .filter.active,
+.players-filters .filter:hover {
+    color: var(--gold);
+}
+
+.players-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.player-card {
+    position: relative;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.player-card:hover {
+    transform: translateY(-5px); /* effect of the gold text when hover*/
+}
+
+.player-image {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.player-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.242);
+
+}
+
+.player-actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.player-card:hover .player-actions {
+    opacity: 1;
+}
+
+
+.player-card:hover .player-actions {
+    opacity: 1;
+}
+
+.action-btn {
+    background-color: var(--white);
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.action-btn a {
+    font-size: 14px;
+    color: var(--black);
+}
+
+.player-attention {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 12px;
+    padding: 5px 10px;
+    transition: all .5s;
+}
+.player-attention:hover {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--gold);
+    color: var(--white);
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.add-to-cart {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .5s;
+}
+.add-to-cart:hover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--gold);
+    color: var(--white);
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.player-card:hover .add-to-cart {
+    opacity: 1;
+}
+
+.player-info {
+    padding: 15px;
+    height: 125px;
+    background-color: white;
+}
+
+.player-noun {
+    font-size: 12px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.player-name {
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.player-detail {
+    font-size: 14px;
+    color: rgba(30, 30, 30, 0.655);
+    font-weight: bold;
+}
+
+.load-more {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.load-more-btn {
+    font-size: 14px;
+    color: var(--black);
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 1px solid var(--black);
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.load-more-btn:hover {
+    background-color: var(--gold);
+    color: var(--white);
+    border-color: var(--gold);
+}
+
+
