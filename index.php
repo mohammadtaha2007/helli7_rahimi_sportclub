@@ -530,6 +530,24 @@
                     <li><a href="#">FAQs</a></li>
                 </ul>
             </div>
+            <!-- Newsletter -->
+            <div class="footer-column">
+                <h4 class="footer-title">Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address..." class="newsletter-input">
+                    <button type="submit" class="newsletter-btn">→</button>
+                </form>
+                <div class="payment-methods">
+                    <h4 class="footer-title">Payment</h4>
+                    <div class="payment-icons">
+                        <span>VS</span>
+                        <span>MC</span>
+                        <span>AP</span>
+                        <span>PP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </footer>
     <!-- End Footer -->
