@@ -959,3 +959,32 @@ section {
     line-height: 1.5;
 }
 
+/* Info Cards */
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info-card {
+    width: 33.33%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info-card h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+
+/* ********* */
