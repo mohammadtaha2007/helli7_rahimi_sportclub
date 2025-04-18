@@ -988,3 +988,114 @@ section {
 
 
 /* ********* */
+
+/* Latest Updates Section */
+.latest-updates-section {
+    padding: 50px 0;
+    background-color: var(--white);
+}
+
+.latest-updates-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.latest-updates-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.see-all-btn {
+    font-size: 14px;
+    color: var(--black);
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.see-all-btn .arrow {
+    margin-left: 5px;
+    transition: transform 0.3s;
+}
+
+.see-all-btn:hover {
+    color: var(--gold);
+}
+
+.see-all-btn:hover .arrow {
+    transform: translateX(5px);
+}
+
+.updates-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.update-card {
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.update-card:hover {
+    transform: translateY(-5px);
+}
+
+.update-image {
+    background-color:var(--gray);
+    position: relative;
+    height: 300px;
+}
+
+.update-img {
+    width: 70%;
+    height: 85%;
+    margin-top: 40px;
+    margin-left: 50px;
+    object-fit: cover;
+}
+
+.update-date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 70px;
+    color: var(--black);
+    font-size: 12px;
+    padding: 20px 35px;
+    align-items: center;
+    z-index: 10;
+}
+.update-month {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 70px;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 12px;
+    padding: 30px 30px;
+    align-items: center;
+}
+
+
+.update-info {
+    padding: 15px;
+}
+
+.update-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.update-author {
+    font-size: 14px;
+    color: var(--text-color);
+}
