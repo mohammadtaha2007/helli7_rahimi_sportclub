@@ -905,3 +905,57 @@ section {
     transform: translateX(10px);
 }
 
+/* Questions */
+.questions {
+    width: 50%;
+}
+
+.questions-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid var(--gray);
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--black);
+    font-weight: bold;
+}
+
+
+.accordion-item summary {
+    list-style: none;
+}
+
+.accordion-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.accordion-toggle {
+    font-size: 20px;
+    color: red;
+    transition: transform 0.3s;
+}
+
+.accordion-item[open] .accordion-toggle {
+    transform: rotate(45deg); /* chanGE × To + .*/
+}
+
+.accordion-content {
+    padding: 0 0 15px 0;
+    font-size: 14px;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
