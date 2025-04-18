@@ -486,6 +486,17 @@
     <!-- Footer -->
     <footer class="main-footer">
         <div class="container t-flex">
+            <!-- Footer Logo and Contact -->
+            <div class="footer-column">
+                <a href="#" class="footer-logo">
+                    <img src="images/sitelogo.png" alt="Sportzy Logo" class="footer-logo-img">
+                </a>
+                <p class="footer-contact">
+                    <span>123 Main Street Chicago, IL 60601 United States</span><br>
+                    <span>+1 (312) 555-1234</span><br>
+                    <span>hello@sportzystore.com</span>
+                </p>
+            </div>
         </div>
     </footer>
     <!-- End Footer -->
