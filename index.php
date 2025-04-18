@@ -482,5 +482,12 @@
         </div>
     </section>
     <!-- End Latest Updates Section -->
+    
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container t-flex">
+        </div>
+    </footer>
+    <!-- End Footer -->
 </body>
 </html>
