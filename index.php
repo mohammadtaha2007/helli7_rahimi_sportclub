@@ -14,9 +14,9 @@
                 <p>This Site Is About All Time Football Iconic Team </p>
 
                 <ul class="c-flex">
-                    <li class="eng"> <a href="">ENG</a> </li> 
+                    <li> <a href="" class="eng">ENG</a> </li> 
                     <div>|</div>
-                    <li class="fa"> <a href="">FA</a> </li>
+                    <li> <a href="" class="fa">FA</a> </li>
                     <div>|</div>
                     <li class="enjoy"> Enjoy This Team </li>
                 </ul> 
