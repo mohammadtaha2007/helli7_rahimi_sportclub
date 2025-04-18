@@ -548,6 +548,15 @@
                 </div>
             </div>
         </div>
+        <div class="footer-bottom t-flex">
+            <div class="container t-flex">
+                <div class="social-links">
+                    <a href="#">FB</a>
+                    <a href="#">IG</a>
+                    <a href="#">TW</a>
+                </div>
+                <p>Privacy Policy | Terms & Condition | Sitemap</p>
+            </div>  
         </div>
     </footer>
     <!-- End Footer -->
