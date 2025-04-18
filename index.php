@@ -508,6 +508,17 @@
                     <li><a href="#">Latest Update</a></li>
                 </ul>
             </div>
+            <!-- Account Links -->
+            <div class="footer-column">
+                <h4 class="footer-title">Account</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Payment Info</a></li>
+                    <li><a href="#">Addresses</a></li>
+                    <li><a href="#">Personal Info</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
     <!-- End Footer -->
