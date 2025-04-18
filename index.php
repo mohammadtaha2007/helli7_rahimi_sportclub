@@ -497,6 +497,17 @@
                     <span>hello@sportzystore.com</span>
                 </p>
             </div>
+            <!-- Company Links -->
+            <div class="footer-column">
+                <h4 class="footer-title">Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Latest Update</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
     <!-- End Footer -->
