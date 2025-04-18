@@ -519,6 +519,17 @@
                     <li><a href="#">Personal Info</a></li>
                 </ul>
             </div>
+            <!-- Support Links -->
+            <div class="footer-column">
+                <h4 class="footer-title">Support</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Payment Guide</a></li>
+                    <li><a href="#">Help Centre</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
     <!-- End Footer -->
