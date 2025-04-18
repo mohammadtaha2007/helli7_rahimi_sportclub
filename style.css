@@ -395,3 +395,10 @@ section {
 
 /* ***** */
 
+
+/* players-section */
+.players-section {
+    padding: 50px 0;
+    background-color: var(--white);
+}
+
