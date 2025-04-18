@@ -844,3 +844,64 @@ section {
     margin-bottom: 30px;
 }
 
+/* Photo */
+.photo {
+    width: 50%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo-image {
+    background-image: url('images/icon.png');
+    background-size: 95%;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 300px;
+    margin-left: 300px;
+}
+
+
+.photo-text {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    color: var(--black);
+    z-index: 10;
+}
+
+.photo-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.photo-btn {
+    display: inline-block;
+    padding: 10px 5px;
+    margin-top: 25px ;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.photo-btn .arrow{
+    margin-left: 5px;
+    transition: transform 0.3s;
+}
+
+
+.photo-btn:hover {
+    background-color: var(--gold);
+    color: var(--white);
+}
+
+.photo-btn .arrow:hover {
+    transform: translateX(10px);
+}
+
