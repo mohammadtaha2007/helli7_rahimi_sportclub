@@ -92,7 +92,6 @@
             </div>
             <div class="players-grid">
                 <?php
-                // فقط 4 بازیکن اول رو برای Top Icons نمایش می‌دیم
                 $sql = "SELECT * FROM players LIMIT 4";
                 $result = $conn->query($sql);
 
@@ -107,7 +106,9 @@
                                     <button class="action-btn"><a href=""><img src="images/share.png" alt=""></a></button>
                                     <button class="action-btn"><a href=""><img src="images/full.png" alt=""></a></button>
                                 </div>
-                                <button class="add-to-cart">SHOW MORE DETAILS ABOUT HIM</button>
+                                <a href="SecondPage.php?id=' . $row['id'] . '">
+                                    <button class="add-to-cart">SHOW MORE DETAILS ABOUT HIM</button>
+                                </a>
                             </div>
                             <div class="player-info">
                                 <span class="player-noun">' . $row['noun'] . '</span>
@@ -152,7 +153,6 @@
             </div>
             <div class="all-icons-grid">
                 <?php
-                // همه بازیکن‌ها رو برای All Icons نمایش می‌دیم
                 $sql = "SELECT * FROM players";
                 $result = $conn->query($sql);
 
@@ -162,7 +162,9 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="' . $row['image'] . '" alt="' . $row['name'] . '" class="card-img">
-                                <button class="add-to-cart">See More Details</button>
+                                <a href="SecondPage.php?id=' . $row['id'] . '">
+                                    <button class="add-to-cart">See More Details</button>
+                                </a>
                             </div>
                             <div class="card-info">
                                 <span class="card-category">' . $row['noun'] . '</span>
