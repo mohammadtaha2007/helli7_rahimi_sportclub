@@ -46,10 +46,17 @@
                     <a href="MainPage.php" class="add-to-cart-btn">Back to Home</a>
                 </div>
             </div>
-            <!-- Player Image -->
+            <!-- Player Images -->
             <div class="product-images">
                 <div class="main-image">
-                    <img src="<?php echo $player['image']; ?>" alt="<?php echo $player['name']; ?>">
+                    <img src="<?php echo $player['image']; ?>" alt="<?php echo $player['name']; ?>" id="mainImage">
+                </div>
+                <div class="thumbnail-images">
+                    <img src="<?php echo $player['image']; ?>" alt="<?php echo $player['name']; ?>" class="thumbnail active" onclick="changeImage('<?php echo $player['image']; ?>')">
+                    <img src="<?php echo $player['image2']; ?>" alt="<?php echo $player['name']; ?> 2" class="thumbnail" onclick="changeImage('<?php echo $player['image2']; ?>')">
+                    <img src="<?php echo $player['image3']; ?>" alt="<?php echo $player['name']; ?> 3" class="thumbnail" onclick="changeImage('<?php echo $player['image3']; ?>')">
+                    <img src="<?php echo $player['image4']; ?>" alt="<?php echo $player['name']; ?> 4" class="thumbnail" onclick="changeImage('<?php echo $player['image4']; ?>')">
+                    <img src="<?php echo $player['image5']; ?>" alt="<?php echo $player['name']; ?> 5" class="thumbnail" onclick="changeImage('<?php echo $player['image5']; ?>')">
                 </div>
             </div>
         </div>
