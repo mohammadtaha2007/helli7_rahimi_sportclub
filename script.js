@@ -21,3 +21,19 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+// Function to change the main image when a thumbnail is clicked
+function changeImage(imageSrc) {
+    const mainImage = document.getElementById('mainImage');
+    mainImage.src = imageSrc;
+
+    // Remove 'active' class from all thumbnails
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    thumbnails.forEach(thumb => thumb.classList.remove('active'));
+
+    // Add 'active' class to the clicked thumbnail
+    const clickedThumbnail = Array.from(thumbnails).find(thumb => thumb.src.includes(imageSrc));
+    if (clickedThumbnail) {
+        clickedThumbnail.classList.add('active');
+    }
+}
