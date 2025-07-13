@@ -49,6 +49,96 @@ section {
 }
 
 /* *********************** */
+
+
+/* Chatbot Section */
+/* .chatbot-section {
+    padding: 30px 0;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--gray);
+}
+
+.chatbot-box {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chatbot-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.chatbot-desc {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.chatbot-messages {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: var(--white);
+    border-radius: 5px;
+}
+
+.chat-message {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-message {
+    background-color: #ddd;
+    text-align: right;
+}
+
+.bot-message {
+    background-color: var(--gold);
+    color: var(--white);
+    text-align: left;
+}
+
+.chatbot-form {
+    display: flex;
+    gap: 10px;
+}
+
+.chatbot-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.chatbot-submit {
+    padding: 10px 20px;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.chatbot-submit:hover {
+    background-color: var(--gold);
+} */
+
+
+
+
 /* Header Part */
 .t-flex {
     display: flex;
@@ -123,11 +213,13 @@ section {
     height: 170px;
     margin: 0px 0px;
     transition: all .5s;
+    margin-right: 90px;
 }
 .site-logo:hover{
     width: 270px;
     height: 190px;
     margin: 0px 0px;
+    margin-right: 90px;
 }
 
 .shop-basket{
@@ -1957,4 +2049,108 @@ section {
     color: red;
     font-size: 12px;
     margin-left: 5px;
+}
+
+/* login */
+
+/* Login Section */
+.login-section {
+    padding: 50px 0;
+    background-color: var(--white);
+    border-top: 1px solid var(--gray);
+}
+
+.login-box {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: var(--black);
+    margin-bottom: 5px;
+    display: block;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login-submit {
+    padding: 10px 20px;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-submit:hover {
+    background-color: var(--gold);
+}
+
+.signup-link {
+    font-size: 14px;
+    color: var(--text-color);
+    margin-top: 15px;
+}
+
+.signup-link a {
+    color: var(--gold);
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* weclovme */
+/* Welcome Message */
+.welcome-message {
+    text-align: center;
+    font-size: 16px;
+    color: var(--black);
+    padding: 10px;
+    background-color: rgb(210, 210, 210);
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.welcome-message:hover {
+    color: var(--gold);
 }
