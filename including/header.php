@@ -1,3 +1,11 @@
+    <!-- session start condition -->
+    <?php
+        if (session_status() === PHP_SESSION_NONE) {
+            session_start();
+        }
+    ?>
+    <!-- end session start condition -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,12 +22,22 @@
                 <p>This Site Is About All Time Football Iconic Team </p>
 
                 <ul class="c-flex">
-                    <li> <a href="" class="eng">ENG</a> </li> 
+                    <li> <a href="MainPage.php" class="eng">ENG</a> </li> 
                     <div>|</div>
-                    <li> <a href="" class="fa">FA</a> </li>
+                    <li> <a href="MainPageFa.php" class="fa">FA</a> </li>
                     <div>|</div>
                     <li class="enjoy"> Enjoy This Team </li>
                 </ul> 
+            </div>
+
+            <div class="welcome-message">
+                <?php
+                if (isset($_SESSION['username'])) {
+                    echo "Welcome " . htmlspecialchars($_SESSION['username']);
+                } else {
+                    echo "Login First Please";
+                }
+                ?>
             </div>
         </div>
 
@@ -38,8 +56,13 @@
 
             <div>
                 <div class="t-flex">
-                    <img src="images/person.png" class="person" alt="">
-                    <a href="" class="sign-in">Sign in</a>
+                    <div class="sign-in">
+                        <?php if (isset($_SESSION['username'])) { ?>
+                            <a href="logout.php">Logout</a>
+                        <?php } else { ?>
+                            <a href="login.php">Login</a>
+                        <?php } ?>
+                    </div>
                     <div>|</div>
                     <img src="images/shoppingbasket.png" class="shop-basket" alt="">
                 </div>
