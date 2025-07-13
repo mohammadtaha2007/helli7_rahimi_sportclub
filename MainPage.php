@@ -1,10 +1,30 @@
+    <!-- data base connect -->
     <?php
         include 'db_connect.php'; 
     ?>
-    
+    <!-- end data base connect -->
+
+    <!-- including header -->
     <?php
         include 'including/header.php'; 
     ?>
+    <!-- end including header -->
+
+    <!-- Chatbot Section -->
+    <!-- <section class="chatbot-section">
+        <div class="container">
+            <div class="chatbot-box">
+                <h2 class="chatbot-title">Talk to Iconic Agent</h2>
+                <p class="chatbot-desc">Ask about iconic football players like Ronaldinho or Nazario!</p>
+                <div class="chatbot-messages" id="chatbot-messages"></div>
+                <form method="POST" class="chatbot-form" id="chatbot-form">
+                    <input type="text" name="chat_input" class="chatbot-input" placeholder="Type your question..." required>
+                    <button type="submit" class="chatbot-submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section> -->
+    <!-- End Chatbot Section -->
 
     <!-- Main Section -->
     <section class="main-slider">
@@ -304,6 +324,52 @@
     </section>
     <!-- End Latest Updates Section -->
     
+    <!-- including footer -->
     <?php
         include 'including/footer.php'; 
     ?>
+    <!-- end including footer -->
+
+    <!-- Script For ChatBox -->
+    <!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const form = document.getElementById('chatbot-form');
+        const input = form.querySelector('.chatbot-input');
+        const messages = document.getElementById('chatbot-messages');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const userInput = input.value.trim();
+
+            if (userInput) {
+                // نمایش پیام کاربر
+                addMessage('You: ' + userInput, 'user-message');
+                input.value = '';
+
+                // درخواست به سرور FastAPI
+                fetch('http://localhost:8001/agent/invoke', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ input: userInput })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    const botResponse = data.output || 'Sorry, I couldn’t get a response.';
+                    addMessage('Iconic Agent: ' + botResponse, 'bot-message');
+                })
+                .catch(error => {
+                    addMessage('Iconic Agent: Sorry, an error occurred!', 'bot-message');
+                    console.error('Error:', error);
+                });
+            }
+        });
+
+        function addMessage(text, className) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'chat-message ' + className;
+            messageDiv.textContent = text;
+            messages.appendChild(messageDiv);
+            messages.scrollTop = messages.scrollHeight;
+        }
+    });
+    </script> -->

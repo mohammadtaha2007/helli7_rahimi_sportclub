@@ -1,27 +1,31 @@
-<?php
+    <!-- database connect and players Id  -->
+    <?php
 
-    include 'db_connect.php';
+        include 'db_connect.php';
 
 
-    $player_id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
+        $player_id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 
-    
-    $sql = "SELECT * FROM players WHERE id = $player_id";
-    $result = $conn->query($sql);
-
-    $player = null;
-    if ($result->num_rows > 0) {
-        $player = $result->fetch_assoc();
-    } else {
         
-        header("Location: index.php");
-        exit();
-    }
-?>
+        $sql = "SELECT * FROM players WHERE id = $player_id";
+        $result = $conn->query($sql);
+
+        $player = null;
+        if ($result->num_rows > 0) {
+            $player = $result->fetch_assoc();
+        } else {
+            
+            header("Location: MainPage.php");
+            exit();
+        }
+    ?>
+    <!-- end database connect and players Id  -->
     
+    <!-- including header -->
     <?php
         include 'including/header.php'; 
     ?>
+    <!-- end including header -->
 
     <!-- Breadcrumb -->
     <section class="breadcrumb-section">
@@ -119,6 +123,8 @@
     </section>
     <!-- End Related Players Section -->
 
+    <!-- including footer -->
     <?php
         include 'including/footer.php'; 
     ?>
+    <!-- end including footer -->
