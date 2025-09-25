@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (password_verify($password, $user['password'])) {
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['username'] = $user['username'];
-            header("Location: MainPage.php");
+            header("Location: index.php");
             exit();
         } else {
             $error = "Password Is Wrong!";
@@ -33,12 +33,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login To Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <?php include 'including/header.php'; ?>
 
@@ -52,11 +54,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <form method="POST" class="login-form">
                     <div class="form-group">
                         <label for="username">UserName :</label>
-                        <input type="text" id="username" name="username" class="login-input" placeholder="Please Enter Your UserName" required>
+                        <input type="text" id="username" name="username" class="login-input"
+                            placeholder="Please Enter Your UserName" required>
                     </div>
                     <div class="form-group">
                         <label for="password">PassWord :</label>
-                        <input type="password" id="password" name="password" class="login-input" placeholder="Please Enter Your PassWord" required>
+                        <input type="password" id="password" name="password" class="login-input"
+                            placeholder="Please Enter Your PassWord" required>
                     </div>
                     <button type="submit" class="login-submit">Login</button>
                 </form>
@@ -67,4 +71,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <?php include 'including/footer.php'; ?>
 </body>
+
 </html>

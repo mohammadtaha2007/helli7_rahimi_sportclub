@@ -6,7 +6,7 @@ include 'db_connect.php';
 
 <!-- including header -->
 <?php
-include 'including/headerFa.php';
+include 'including/header.php';
 ?>
 <!-- end including header -->
 
@@ -30,13 +30,14 @@ include 'including/headerFa.php';
 <section class="main-slider">
     <section class="container t-flex">
         <div>
-            <h1 class="slider-text">تمام بازیکنان</h1>
+            <h1 class="slider-text">All Iconic Players</h1>
 
-            <p class="slider-p">این بازیکنان بهترین بازیکنان نسل خود بودند و در طول دوران حرفه ای خود
-                جام هایی بسیار با ارزش وافتخارات فردی ارزشمندی را بدست آورده اند
+            <p class="slider-p">these football players are the best at old time
+                and they become famous because their hard working
+                and the trophy they won.
             </p>
 
-            <button class="slider-info">اطلاعات بیشتر</button>
+            <button class="slider-info">More Info</button>
         </div>
 
         <div>
@@ -50,7 +51,7 @@ include 'including/headerFa.php';
 <!-- Iconic Teams -->
 <section class="brand-section">
     <div class="container">
-        <h2 class="brand-title">( تیم های نمادین )</h2>
+        <h2 class="brand-title">( Iconic Teams )</h2>
         <div class="brand-logos">
             <img src="images/rma.png" alt="Real Madrid Logo" class="brand-logo">
             <img src="images/fcb.png" alt="Barcelona Logo" class="brand-logo">
@@ -70,10 +71,10 @@ include 'including/headerFa.php';
             <!-- Left Cart-->
             <div class="promo-card promo-card-left">
                 <div class="promo-text">
-                    <span class="promo-label">!!بازیکنان نمادین</span>
-                    <h2 class="promo-title">چه کسی بازیکن نمادین است؟؟</h2>
-                    <p class="promo-desc">بازیکنی که در نسل خود بهترین عملکرد را داشت ، نمادین است</p>
-                    <a href="#" class="promo-btn-l">آنها را ببینیم <span class="arrow">→</span></a>
+                    <span class="promo-label">ICON PLAYERS!!</span>
+                    <h2 class="promo-title">WHO IS ICON PLAYER??</h2>
+                    <p class="promo-desc">The Player Who Is The Best On His Generation Is ICON.</p>
+                    <a href="#" class="promo-btn-l">See Them <span class="arrow">→</span></a>
                 </div>
                 <div class="promo-image">
                     <img src="images/icon.png" alt="Icon" class="promo-img">
@@ -82,10 +83,10 @@ include 'including/headerFa.php';
             <!-- Right CARt-->
             <div class="promo-card promo-card-right">
                 <div class="promo-text">
-                    <span class="promo-label">!!جام هایی که بازیکنان نمادین برده اند</span>
-                    <h2 class="promo-title">!!جوایز بازیکنان نمادین</h2>
-                    <p class="promo-desc">بازیکنان نمادین جام های بسیاری برده اند</p>
-                    <a href="#" class="promo-btn-r">جستوجو در جوایز <span class="arrow">→</span></a>
+                    <span class="promo-label">TROPHY OF ICON PLAYERS!!</span>
+                    <h2 class="promo-title">THE REWARD OF ICON PLAYERS!!</h2>
+                    <p class="promo-desc">Iconic Players Won A Lots OF Rewards.</p>
+                    <a href="#" class="promo-btn-r">Explore About Rewards <span class="arrow">→</span></a>
                 </div>
                 <div class="promo-image">
                     <img src="images/icon.png" alt="Icon" class="promo-img">
@@ -100,13 +101,13 @@ include 'including/headerFa.php';
 <section class="players-section">
     <div class="container">
         <div class="players-header">
-            <h2 class="players-title">بهترین بازیکنان نمادین</h2>
-            <span class="players-tab">در تمام تاریخ</span>
+            <h2 class="players-title">Top Icons</h2>
+            <span class="players-tab">in All Time</span>
             <ul class="players-filters">
-                <li><a href="#" class="filter active">همه</a></li>
-                <li><a href="#" class="filter">مردان</a></li>
-                <li><a href="#" class="filter">زنان</a></li>
-                <li><a href="#" class="filter">سرمربی ها</a></li>
+                <li><a href="#" class="filter active">ALL</a></li>
+                <li><a href="#" class="filter">MALE</a></li>
+                <li><a href="#" class="filter">FEMALE</a></li>
+                <li><a href="#" class="filter">MANAGERS</a></li>
             </ul>
         </div>
         <div class="players-grid">
@@ -142,7 +143,7 @@ include 'including/headerFa.php';
             ?>
         </div>
         <div class="load-more">
-            <button class="load-more-btn">نمایش بیشتر</button>
+            <button class="load-more-btn">SHOW MORE</button>
         </div>
     </div>
 </section>
@@ -152,9 +153,9 @@ include 'including/headerFa.php';
 <section class="history-section">
     <div class="container t-flex">
         <div class="history-text">
-            <h2 class="history-title">نمایش گذشته بازیکنان نمادین</h2>
-            <p class="history-desc">جزئیات جوایز و مشکلاتی که بازیکنان نمادین با آنها مواجه بودند</p>
-            <a href="#" class="history-btn">ببینیمشون</a>
+            <h2 class="history-title">Show History Of Icon Players</h2>
+            <p class="history-desc">Details of rewards or troubles that icon players face with them</p>
+            <a href="#" class="history-btn">See Now</a>
         </div>
     </div>
 </section>
@@ -164,10 +165,10 @@ include 'including/headerFa.php';
 <section class="all-icons">
     <div class="container">
         <div class="all-icons-header">
-            <h2 class="all-icons-title">تمام بازیکان نمادین</h2>
+            <h2 class="all-icons-title">All Icons</h2>
             <div class="sort-by">
-                <span>:مرتب بر اساس</span>
-                <a href="#" class="sort-option">تمام بازیکنان</a>
+                <span>Sort by:</span>
+                <a href="#" class="sort-option">All Icons</a>
             </div>
         </div>
         <div class="all-icons-grid">
@@ -217,41 +218,41 @@ include 'including/headerFa.php';
             <div class="photo-image">
             </div>
             <div class="photo-text">
-                <h2 class="photo-title">درباره بازیکنان نمادین</h2>
-                <p>دیدن همه چیز درباره بازیکنان نمادین</p>
-                <a href="#" class="photo-btn">بیشتر ببینیم<span class="arrow">→</span></a>
+                <h2 class="photo-title">About Iconic</h2>
+                <p>See Every Things About Icons</p>
+                <a href="#" class="photo-btn">See More<span class="arrow">→</span></a>
             </div>
         </div>
         <!-- Questions -->
         <div class="questions">
-            <h2 class="questions-title">سوالات درباره آنها</h2>
+            <h2 class="questions-title">Iconic Questions</h2>
             <div class="accordion">
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h3>بازیکن نمادین چیست؟</h3>
+                        <h3>Who Is Icon Player?</h3>
                         <span class="accordion-toggle">+</span>
                     </div>
                     <div class="accordion-content">
-                        <p>بازیکنی که بازنشسته شده است و در طول کریر خود به جوایزی که تاریخی اند دسترسی پیدا کرده
-                            است</p>
+                        <p>The Player Who retired from football and in his time he reach important rewards is Icon
+                            Player.</p>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h3>این سایت درباره چیه؟</h3>
+                        <h3>What is This site About?</h3>
                         <span class="accordion-toggle">+</span>
                     </div>
                     <div class="accordion-content">
-                        <p>این سایت درباره بازیکنان نمادین و گذشته آنها و زندگینامه آنهاست</p>
+                        <p>This site is about icon players in history and their biography.</p>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <h3>آیا میتوان عکس ها و اطلاعات سایت را دانلود کرد؟</h3>
+                        <h3>Can I Download The Photos And Use Data?</h3>
                         <span class="accordion-toggle">+</span>
                     </div>
                     <div class="accordion-content">
-                        <p>البته ، ولی حتما منبع دانلودتون رو ذکر کنین</p>
+                        <p>Yes Of Course, But Attention to say the Download source.</p>
                     </div>
                 </div>
             </div>
@@ -260,16 +261,16 @@ include 'including/headerFa.php';
     <!-- Additional Info Cards -->
     <div class="container t-flex info-cards">
         <div class="info-card">
-            <h4>ویژگی های سایت</h4>
-            <p>سایت ما مجانیه و دسترسی آسان دارین</p>
+            <h4>Site Features</h4>
+            <p>Our Site is free and you can use it easily.</p>
         </div>
         <div class="info-card">
-            <h4>دانلود رایگان</h4>
-            <p>شما میتونین عکس های سایت و اطلاعات رو به صورت رایگان داشته باشین</p>
+            <h4>Free Downloading</h4>
+            <p>You can Download Photos and data for free.</p>
         </div>
         <div class="info-card">
-            <h4>سایت منعطف</h4>
-            <p>شما میتونین روی هر پلتفرمی مثل لپتاپ و حتی تلویزیون هم دسترسی داشته باشین</p>
+            <h4>Site Responsive</h4>
+            <p>You can use our site in every phones or Pc or TV!!!</p>
         </div>
     </div>
 </section>
@@ -279,8 +280,8 @@ include 'including/headerFa.php';
 <section class="latest-updates-section">
     <div class="container">
         <div class="latest-updates-header">
-            <h2 class="latest-updates-title">آخرین اخبار</h2>
-            <a href="#" class="see-all-btn">دیدن تمام موارد<span class="arrow">→</span></a>
+            <h2 class="latest-updates-title">Latest Updates</h2>
+            <a href="#" class="see-all-btn">See All Articles<span class="arrow">→</span></a>
         </div>
         <div class="updates-grid">
             <!-- Article 1 -->
@@ -288,11 +289,11 @@ include 'including/headerFa.php';
                 <div class="update-image">
                     <img src="images/bale.png" alt="Gareth Bale" class="update-img">
                     <span class="update-date">4</span>
-                    <span class="update-month">آپریل</span>
+                    <span class="update-month">Apr</span>
                 </div>
                 <div class="update-info">
-                    <h3 class="update-title">گرت بیل به عنوان بازیکن نمادین اضافه شد</h3>
-                    <p class="update-author">گرت بیل</p>
+                    <h3 class="update-title">Add Gareth Bale New Icon on Our Website!!</h3>
+                    <p class="update-author">Gareth Bale</p>
                 </div>
             </div>
             <!-- Article 2 -->
@@ -300,11 +301,11 @@ include 'including/headerFa.php';
                 <div class="update-image">
                     <img src="images/buffon.png" alt="GG Buffon" class="update-img">
                     <span class="update-date">4</span>
-                    <span class="update-month">آپریل</span>
+                    <span class="update-month">Apr</span>
                 </div>
                 <div class="update-info">
-                    <h3 class="update-title">جانلوئیجی بوفون به عنوان بازیکن نمادین دیگری اضافه شد</h3>
-                    <p class="update-author">جی جی بوفون</p>
+                    <h3 class="update-title">Adding Another New Icon GG Buffon On Website!!!</h3>
+                    <p class="update-author">GG Buffon</p>
                 </div>
             </div>
             <!-- Article 3 -->
@@ -312,11 +313,11 @@ include 'including/headerFa.php';
                 <div class="update-image">
                     <img src="images/lilian.png" alt="Lilian Thuram" class="update-img">
                     <span class="update-date">4</span>
-                    <span class="update-month">آپریل</span>
+                    <span class="update-month">Apr</span>
                 </div>
                 <div class="update-info">
-                    <h3 class="update-title">دفاع راست نمادین جدید : لیلیان تورام</h3>
-                    <p class="update-author">لیلیان تورام</p>
+                    <h3 class="update-title">Addin New Rb : Lilian Thuram On Our site!!</h3>
+                    <p class="update-author">Lilian Thuram</p>
                 </div>
             </div>
         </div>
@@ -326,7 +327,7 @@ include 'including/headerFa.php';
 
 <!-- including footer -->
 <?php
-include 'including/footerFa.php';
+include 'including/footer.php';
 ?>
 <!-- end including footer -->
 

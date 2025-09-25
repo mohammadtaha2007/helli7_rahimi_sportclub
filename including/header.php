@@ -1,19 +1,21 @@
-    <!-- session start condition -->
-    <?php
-        if (session_status() === PHP_SESSION_NONE) {
-            session_start();
-        }
-    ?>
-    <!-- end session start condition -->
+<!-- session start condition -->
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+?>
+<!-- end session start condition -->
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iconic Team Template</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Header Part -->
     <header class="main-header">
@@ -22,15 +24,15 @@
                 <p>This Site Is About All Time Football Iconic Team </p>
 
                 <ul class="c-flex">
-                    <li> <a href="MainPage.php" class="eng">ENG</a> </li> 
+                    <li> <a href="index.php" class="eng">ENG</a> </li>
                     <div>|</div>
                     <li> <a href="MainPageFa.php" class="fa">FA</a> </li>
                     <div>|</div>
                     <li class="enjoy"> Enjoy This Team </li>
-                </ul> 
+                </ul>
             </div>
 
-            <div class="welcome-message">
+            <a href="login.php" class="welcome-message">
                 <?php
                 if (isset($_SESSION['username'])) {
                     echo "Welcome " . htmlspecialchars($_SESSION['username']);
@@ -38,35 +40,35 @@
                     echo "Login First Please";
                 }
                 ?>
-            </div>
+            </a>
         </div>
 
         <hr>
 
         <div class="mid-row">
             <div class="container t-flex">
-            <div class="t-flex">
-                <img class="search-logo" src="images/Search.png" alt="">
-                <input type="search" placeholder="Search About Your Iconic Player..." class="serach-box">
-            </div>
-
-            <div class="t-flex">
-                <a href="MainPage.php"><img class="site-logo" src="images/sitelogo.png" alt=""></a>
-            </div>
-
-            <div>
                 <div class="t-flex">
-                    <div class="sign-in">
-                        <?php if (isset($_SESSION['username'])) { ?>
-                            <a href="logout.php">Logout</a>
-                        <?php } else { ?>
-                            <a href="login.php">Login</a>
-                        <?php } ?>
-                    </div>
-                    <div>|</div>
-                    <img src="images/shoppingbasket.png" class="shop-basket" alt="">
+                    <img class="search-logo" src="images/Search.png" alt="">
+                    <input type="search" placeholder="Search About Your Iconic Player..." class="serach-box">
                 </div>
-            </div>
+
+                <div class="t-flex">
+                    <a href="index.php"><img class="site-logo" src="images/sitelogo.png" alt=""></a>
+                </div>
+
+                <div>
+                    <div class="t-flex">
+                        <div class="sign-in">
+                            <?php if (isset($_SESSION['username'])) { ?>
+                                <a href="logout.php">Logout</a>
+                            <?php } else { ?>
+                                <a href="login.php">Login</a>
+                            <?php } ?>
+                        </div>
+                        <div>|</div>
+                        <img src="images/shoppingbasket.png" class="shop-basket" alt="">
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -74,7 +76,7 @@
             <div class="container t-flex">
                 <ul class="t-flex nav-bar">
                     <li class="nav">
-                        <a href="SecondPage.php">Browse Categories</a>                    
+                        <a href="SecondPage.php">Browse Categories</a>
                     </li>
 
                     <li class="nav">

@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql = "INSERT INTO users (username, password) VALUES ('$username', '$password')";
         if ($conn->query($sql) === TRUE) {
             $_SESSION['username'] = $username;
-            header("Location: MainPage.php");
+            header("Location: index.php");
             exit();
         } else {
             $error = "Faild To Sign Up: " . $conn->error;
@@ -32,12 +32,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up To Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <?php include 'including/header.php'; ?>
 
@@ -51,11 +53,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <form method="POST" class="login-form">
                     <div class="form-group">
                         <label for="username">UserName :</label>
-                        <input type="text" id="username" name="username" class="login-input" placeholder="Please Enter Your UserName" required>
+                        <input type="text" id="username" name="username" class="login-input"
+                            placeholder="Please Enter Your UserName" required>
                     </div>
                     <div class="form-group">
                         <label for="password">PassWord :</label>
-                        <input type="password" id="password" name="password" class="login-input" placeholder="Please Enter Your PassWord" required>
+                        <input type="password" id="password" name="password" class="login-input"
+                            placeholder="Please Enter Your PassWord" required>
                     </div>
                     <button type="submit" class="login-submit">Sign Up</button>
                 </form>
@@ -66,4 +70,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <?php include 'including/footer.php'; ?>
 </body>
+
 </html>
